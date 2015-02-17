@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="static/js/lib/angular.min.js"></script>
+<script src="static/js/training.js"></script>
+</head>
+
+<body>
+
+<div ng-app="myApp" ng-controller="TrainingController">
+   <p>Number: <input type="text" ng-model="number"></p>
+   <p ng-bind="fizzbuzz(number)"></p>
+</div>
+
+</body>
+</html>
